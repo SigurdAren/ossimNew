@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Змея</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+background-position: top;
+background-size: cover;
+background-repeat: no-repeat;
+overflow-x: hidden;
+animation: fon 60s linear infinite;
+        }
+@keyframes fon{
+    0%{
+        background: url(змеюка.jpg);
+        background-repeat: no-repeat;
+        
+    }
+    30%{
+    background: url(огненный_ураган.jpg);
+    background-repeat: no-repeat;
+    }
+    60%{
+       
+    background: url(в_горе.jpg);
+    background-repeat: no-repeat;
+    
+    }
+    100%{
+        background: url(змеюка.jpg);
+        background-repeat: no-repeat;
+    }
+}
+        .legend{
+            margin-top: 50px;
+            color: rgb(255, 255, 255);
+            font-family: 'Pacifico', cursive;
+            text-align: center;
+            margin: 25px;
+        }
+        .kapl{
+            position: absolute;
+            z-index: -1;
+            top: 2px;
+            height: 1100px; 
+        }
+        .A{
+            margin-top: 15px
+        }
+        
+        .tuman2{
+            position: absolute;
+            z-index: -1;
+            top: 20px;
+            width: 1700px;
+       animation: plav 100s linear infinite;
+        }
+        @keyframes plav{
+            0%{
+                transform: translateY(400px);
+                transform: translateX(-400px);
+            }
+            100%{
+                transform: translateY(-400px);
+                transform: translateX(400px);
+            }
+        }
+        .tuman3{
+            position: absolute;
+            z-index: -2;
+            top: 20px;
+            width: 1700px;
+       animation: plav 100s linear infinite;
+        }
+        @keyframes plav{
+            0%{
+                transform: translateY(400px);
+                transform: translateX(-400px);
+            }
+            100%{
+                transform: translateY(-400px);
+                transform: translateX(400px);
+            }
+        }
+        .kapl2{
+            position: absolute;
+            z-index: -1;
+            top: 2px;
+            height: 1100px; 
+            right: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="legend">
+        <h1>Легенда о белой змее</h1>
+        <h2 class="A">
+   Однажды весной, сёстры отправились на сбор весенних трав. Только Шидалини с Бахри остались дома. Шидалини тренировалась с посохом на крыше их дома, как вдруг заметила вдали высокие облака пыли и дыма. <br><br> Оттуда во все стороны разлетались птицы, разбегались люди и звери. Даже величественные скалы кричали от ревели от ужаса. Шидалини спустилась вниз и позвала Бахри, Сестру Хаоса, проверить что там происходит. Бахри схватила свой кнут и сёстры побежали туда. Представшая перед ними картина ужасала- колоссальная белая змея ползла по песчанному дну каньона уничтожая всё на своём пути. Бахри, охваченная яростью, одним ударом своего кнута разрубила змею пополам. Но змея даже не обратила на Сестру Хаоса внимания. За долю секунды две половины змеи срослись вместе. Тогда Шидалини ударила змею посох по огромной голове, проломив змеиный череп. За долю секунды рана срослась. <br><br> Тогда Бахри и Шидалини принялись атаковать змею вместе, нанося удары по всему телу огромного монстра. Несмотря на силу и опыт сестёр, все попытки были тщетны. Уставшие сёстры уже было отчаялись, как им в голову пришла идея. Обьеденившись в одно тело, с помощью ветра Шидалини подняли они песок в воздух, закружили вокруг змеи и расплавили яростью Бахри. Змея была заточена в стеклянной горе. И до сих пор, где-то есть эта прозрачная гора в которой веками томится белая змея.
+            </h2>
+            <img src="искры.png" alt="" class="kapl">
+            <img src="дымка.png"  class="tuman2" alt="">
+            <img src="осколки.png" alt="" class="kapl2">
+            <embed src="Dynamic Music — Боевые барабаны (www.lightaudio.ru).mp3" width="70" height="45" align="left" hidden="False" autostart="True" loop="True">
+</body>
+</html>
